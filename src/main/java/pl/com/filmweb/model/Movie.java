@@ -11,6 +11,9 @@ public class Movie {
     private String title;
     private int productionYear;
 
+    @ManyToOne
+    private Director director;
+
     public Movie() {
     }
 
